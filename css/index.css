@@ -1,0 +1,80 @@
+header {
+    height: 4rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cuadro {
+    height: 2rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.p-titulo {
+    height: 100%;
+    margin-top: 2rem;
+}
+.text {
+margin-left: 1rem;
+}
+.text h1 {
+    font-weight: 200;
+}
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem
+}
+.c-1 {
+    background-color: aquamarine;
+    height: 10rem;
+    width: 10rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-2 {
+    margin: 1rem;
+    background-color: palegreen;
+    height: 10rem;
+    width: 35rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem
+}
+.c-3 {
+    background-color: peachpuff;
+    height: 15rem;
+    width: 6rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

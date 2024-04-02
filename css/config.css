@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 1rem;
+    font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.pantalla-37 {
+    max-width: 37.5rem;
+    height: 100%;
+    margin: auto;
+}
